@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.time {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 7rem;
+  color: #4081cc;
+  font-family: monospace;
+  width: 100vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 776px) {
+  .time {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .time {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .time {
+    font-size: 3.5rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
